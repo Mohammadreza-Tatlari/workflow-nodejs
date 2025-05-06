@@ -31,7 +31,7 @@ jobs:
         name: Docker Login 
         uses: docker/login-action@v3
         with:
-          username: ${{secret.DOCKER_GITHUB}}
+          username: ${{secrets.DOCKER_GITHUB}}
           password: ${{secrets.DOCKERHUB_TOKEN}}
       
       - 
