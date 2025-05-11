@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.send('./src/index.html')
+  res.sendFile(Path2D.join(__dirname, '/src/index.html'))
 })
 
 const PORT = 8080
