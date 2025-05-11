@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 
 app.get('/', (req, res) => {
-  res.sendFile(path.join(__dirname, './index.html'))
+  res.send('<h1> mercede asadi</h1>')
 })
 
 const PORT = 8080
