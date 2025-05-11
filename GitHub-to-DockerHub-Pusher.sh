@@ -12,7 +12,7 @@ usage(){
     exit 1
 }
 
-checking the correctness of arguments
+#checking the correctness of arguments
 if [ "$#" -lt 2 ] || [ "$#" -gt 3 ]; then
     usage
 fi
